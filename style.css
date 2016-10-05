@@ -1,0 +1,260 @@
+/*
+Theme Name: Simona Deflorin;
+Author: Christin Holzwarth;
+Author URl:www.per-seh.de;
+Version: 1.0;
+*/
+
+
+
+
+/* Typografie*/
+
+	body{font-family: "OpenSans", sans serif;
+		color:#333;
+		font-size: 2.0em;}
+
+	@font-face {
+	  font-family: "OpenSans-Light.ttf";
+	  src: url('OpenSans/OpenSans-Light.ttf') format('truetype');
+	  font-weight: normal;
+	  font-style: normal;}
+
+	p{line-height:1.65em;}
+
+	 h1, h2{font-family: "OpenSans";}
+
+
+	
+/*General Layout*/
+
+	div.container{
+		max-width: 100%%;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-right: 20px;}
+
+
+
+	/*Header*/
+
+	.site-title{
+		width: 100%;}
+
+	hgroup#site-title img{
+		max-width: 100%;
+		width: 270px;}
+
+
+	/*Footer*/
+
+	.site-footer p{
+		margin-left: 89%;
+		font-size: 12px;}
+
+
+	/*Navbar*/
+
+	.site-nav ul {
+		margin-left: 30%;
+		margin-top: -5%;
+		padding:0;}
+
+	.site-nav ul:before, .site-nav ul:after {content:""; display:table;}
+	.site-nav ul:after {clear: both;}
+	.site-nav ul {*zoom: 1;}
+
+	.site-nav ul li{
+		list-style: none;
+		display: inline-block;}
+
+	.site-header nav ul li a:link,
+	.site-header nav ul li a:visited{
+		text-decoration: none;
+		padding: 15px 15px;
+		color: #000000;
+		display: block;}
+
+	.site-header nav ul li a:hover {
+		background-color: #000000;
+		color: #FFF;}
+
+
+	.site-header nav ul li.current-menu-item a:link,
+	.site-header nav ul li.current-menu-item a:visited {
+		background-color: #000000; /*active state*/
+		color: #FFF;}
+
+
+/*Slideshow*/
+
+	.slideshow{
+		margin-top: 4%;
+		height: 800px;}
+
+
+/*Beitrag Styling*/
+	
+	.beitragsbox{
+		width: 100%;
+		position: absolute;
+		margin-top: 4%;
+		margin-left: 7%;}
+
+
+
+	/*category-WORK*/
+
+	.innerbox1{
+		width: 50%;
+		float: left;
+		text-align: center;
+		margin-right: -16%;
+		margin-bottom: 2%;}
+
+	.innerbox1 img{
+		border-radius: 5px;
+		padding:1px;
+   		border:10px solid #dddddd;
+   		background-color:#dddddd;}
+
+   	.innerbox1_title{
+   		position: absolute;
+   		width: 50%;
+		margin-top: -14%;
+		}
+
+	.innerbox1_title a{
+		color:#FFF;
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 5px solid #FF1493;
+		background-color: #FF1493;
+		font-weight: lighter;
+		font-size: 0.8em;
+
+	}
+
+
+
+
+
+
+
+
+	@media only screen and (max-width:1024px) {
+		
+
+/*category-HOME*/
+
+
+
+
+/*category-WORK*/	
+
+
+
+
+}
+		@media only screen and (max-width:740px) {
+		
+/*category-HOME*/
+
+
+/*category-WORK*/
+
+
+		.innerbox1 {
+			width: 100%;
+
+			  }	
+
+
+		.innerbox1_title{
+
+			margin-top: -70%;
+		}	  
+
+
+
+
+}
+		
+
+	@media only screen and (max-width:320px) {
+
+
+/*category-HOME*/
+
+
+	hgroup#site-title img{
+		max-width: 100%;
+		text-align: center;}
+
+	#menu-primary-menu {
+		max-width: 320px;
+		margin-left: -10px;
+		margin-top: 3px;}
+
+
+	.site-nav ul {
+		font-size: 0.5em;
+		padding-top: 3px;}
+
+	.site-nav {
+		margin-left: 48px;}
+
+	.site-header nav ul li a:link,
+	.site-header nav ul li a:visited{
+		text-decoration: none;
+		padding: 10px 10px;
+		color: #000000;
+		display: block;}
+		
+
+
+	.slideshow{
+		display: none;}
+
+
+
+
+
+/*category-WORK*/
+		
+		.innerbox1 {
+			width: 100%;
+
+			  }
+
+	.beitragsbox{
+		width: 100%;
+		position: absolute;
+		margin-top: 4%;
+		margin-left: 7%;}
+
+
+
+}
+		
+
+		
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
